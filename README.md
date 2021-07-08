@@ -2,8 +2,8 @@
 
 ## Regras
 - Cadastro de Usuário
-[] Não é permitido mais de um usuário com mesmo email 
-[] Não é permitido cadastrar o usuário sem email
+[ x ] Não é permitido mais de um usuário com mesmo email 
+[ x ] Não é permitido cadastrar o usuário sem email
 
 -Cadastro Tag
 [] Não é permitido cadastrar mais de uma tag com mesmo nome
