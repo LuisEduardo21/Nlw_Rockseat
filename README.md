@@ -5,7 +5,7 @@
 [ x ] Não é permitido mais de um usuário com mesmo email 
 [ x ] Não é permitido cadastrar o usuário sem email
 
--Cadastro Tag
+- Cadastro Tag
 [ x ] Não é permitido cadastrar mais de uma tag com mesmo nome
 [ x ] Não é permitido cadastrar Tag sem nome
 [ x ] Não é permitido o Cadastro por usuário que não sejam admin
