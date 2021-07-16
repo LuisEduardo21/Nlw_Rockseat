@@ -1,0 +1,23 @@
+import {Request, Response} from "express"
+import {CreateComplimentsServices} from "../services/CreateComplimentsServices"
+
+class CreateComplimentsControllers {
+    async handle(request: Request, response: Response){
+
+        const {tag_id, user_sender, user_receiver, message} = request.body;
+
+       const createComplimentsServices = new CreateComplimentsServices(); 
+
+       const compliments = await createComplimentsServices.execute({
+           tag_id, 
+           user_sender, 
+           user_receiver, 
+           message
+       })
+
+       return response.json(compliments);
+    }
+
+}
+
+export {CreateComplimentsControllers}
